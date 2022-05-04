@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    opacity: 1;
+    background-color: black;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    /* height: 100px; */
+    /* border: 2px solid white; */
+
+}
+.menulist{
+    /* border: 2px solid white; */
+    vertical-align: middle;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li{
+    line-height: 50px;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    padding-top: 25px;
+    /* font-weight: 700; */
+    overflow-y: hidden;
+    font-family: 'Goldman', cursive;
+}
+li:hover{
+    color: #38ef7d;
+    transition: 1s;
+    transform: scale(1.2);
+}
+.frontimage{
+    height: 800px;
+    padding: 0;
+    margin: 0;
+}
+#background_video{
+    height: 800px;
+    width: 100%;
+}
+.logomain{
+    height: 100%;
+    width: 100%;
+}
+.novitas h1{
+    font-size: 55px;
+}
+.leftimg{
+    /* border: 2px solid black; */
+    height: 500px;
+}
+.rightcontent p{
+    font-size: 25px;
+}
+
+.foot i{
+    /* margin-right: 30px; */
+}
+
+.footer{
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+.socialmedia i{
+    margin-right: 20px;
+}
+.foot{
+    font-size: 30px;
+    padding: 20px;
+}
+
+h5{
+    overflow-y: hidden;
+}
+
+
+/* Screen size  */
+
+
+/* Screen size  768px*/
+@media only screen and (max-width: 768px)
+{
+    .menulist ul li{
+        font-size: 30px;
+    }
+    .rightcontent{
+        padding: 20px;
+    }
+    .rightcontent h1{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .rightcontent p{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:640px)
+{
+    .menulist ul li{
+        font-size: 27px;
+    }
+}
+/* screen size 540px */
+@media only screen and (max-width: 584px)
+{
+    .menulist ul li{
+        font-size: 21px;
+    }
+}
+
+/* Screen Size 425px */
+
+@media only screen and (max-width: 472px)
+{
+    .menulist ul li{
+        font-size: 18px;
+    }
+    .novitas h1{
+        font-size: 35px;
+    }
+    .frontimage{
+        height: 600px;
+    }
+    #background_video{
+        height: 600px;
+        width: 100%;
+    }
+    
+}
+
+/* Screen Size 375px */
+
+@media screen and (max-width: 414px)
+{
+    .menulist ul li{
+        font-size: 16px;
+    }
+    .frontimage{
+        height: 500px;
+    }
+    #background_video{
+        height: 500px;
+        width: 100%;
+    }
+    .rightcontent p{
+        font-size: 15px;
+    }
+    .logomain{
+        height: 80%;
+    }
+}
+
+/* Screen size 320px */
+
+@media only screen and (max-width: 378px) {
+    .logo img{
+        height: 100%;
+        width: 100%;
+    }
+    .menulist ul li{
+        font-size: 15px;
+    }
+    .frontimage{
+        height: 500px;
+    }
+    #background_video{
+        height: 500px;
+        width: 100%;
+    }
+    .novitas h1{
+        font-size: 25px;
+    }
+    .rightcontent{
+        padding: 20px;
+    }
+    .rightcontent h1{
+        /* font-size: 20px; */
+        text-align: center;
+    }
+    .rightcontent p{
+        font-size: 15px;
+    }
+    .foot i{
+        font-size: 25px;
+    }
+    .foot{
+        font-size: 20px;
+        padding: 10px;
+    }
+    }
+    
+    /* Screen size 312px */
+
+    @media only screen and (max-width: 360px)
+    {
+        .menulist ul li{
+            font-size: 10px;
+        }
+        .rightcontent p{
+            font-size: 15px;
+        }
+    }

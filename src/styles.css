@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ /* 
+*{
+    background-color: #5a5bf3;
+    background-color: #91e7d9;
+    ------------------------ 
+    background-color: #8aedf6;
+    background-color: #60a2f5;
+     ------------------------ 
+    background-color: #edaef9;
+    background-color: #81b1fa;
+    /* ------------------------ 
+    background-color: #7ec9f5;
+    background-color: #3957ed;
+    /* ------------------------ 
+    background-color: #65f4cd;
+    background-color: #4799e9;
+} */
+
+/* #0b2b26 --- olive green rgb(11, 43, 38)*/
+/* rgba(51,64,28,0.7),rgba(51,64,28,0.7), -- header */
+
+/*
+ <i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-google-plus-square"></i>
+<i class="fa-brands fa-youtube-square"></i>
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-solid fa-copyright"></i>
+<i class="fa-solid fa-envelope"></i>
+<i class="fa-solid fa-calendar-days"></i>
+<i class="fa-solid fa-clock"></i>
+ */

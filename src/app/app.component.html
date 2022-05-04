@@ -1,0 +1,129 @@
+<div class="container-fluid" style="width: 100%;background-image: url('../assets/finalized.png');background-repeat: repeat;">
+    <div class="header">
+    <div class="row" style="overflow-y: hidden;">
+        <div  (click)="goto_home()" class="col-lg-4 logo" style="overflow-y: hidden;">
+            <img src="../assets/novitas_logo2.png" alt="" style="margin: auto; display: block; height: 100%; width: 100%;">
+        </div>
+        <div class=" menulist col-lg-8 col-md-12 col-sm-12 " style="overflow-y: hidden;">
+            <ul type="none" style="overflow-y: hidden;">
+                <li (click)="goto_home()">Home</li>
+                <li (click)="goto_aboutus()">About Us</li>
+                <li (click)="goto_events()">Events</li>
+                <li (click)="goto_workshops()">Workshops</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <!-- Header Ends -->
+    <!-- Full Content -->
+<div class="fullcontent">
+    <div class="content" *ngIf="router.url == '/'">
+        <div class="row frontimage" style=" position: relative">
+            <div class="col-lg-12 col-md-12 col-sm-12" style="overflow-y: hidden; height: 100%;;">
+                <video id="background_video" autoplay loop muted src="../assets/background_video.mp4" height="800px" width="100%">
+                </video>
+            </div>
+            
+             <div class="col-lg-12 col-md-12 col-sm-12 novitas" style="height: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column; position: absolute;">
+                <h1 style="color: white; font-weight: 900; font-family: 'Goldman', cursive;">NOVITAS'22</h1>
+                <h1 style="color: white; margin-top: 10px; overflow-y: hidden; color: #38ef7d;">May 14th</h1>
+            </div> 
+        </div>
+        <div class="row image_content">
+            <div class="col-lg-6 col-md-12 col-sm-12 leftimg" style="background-color: black;"  >
+            
+            <div style="height: 100%; width: 60%; margin: auto;">    
+                <img class="logomain" src="../assets/logo/logomain.png" alt="" >
+            </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 rightcontent" style="color: white; padding: 20px;">
+                <h1 style="overflow-y: hidden; margin-bottom: 15px;">NOVITAS'22</h1>
+                <p style=" font-family: Audiowide,sans-serif; color: white; overflow-y: hidden;">It is an National level Technical symposium organized by the Dhirajlal Gandhi college of Technology from the department of computer science and Engineering. This events includes many event like paper presentation, project presentation/Expo and other events. 
+                    Novitas'22 invites the young intelligent minds 
+                    of various colleges and sets forth tremendous means to 
+                    exhibit their valuable ideas.
+                    It is our sincere effort to provide a healthy platform 
+                    for the students to interact and exchange their ideas on 
+                    recent technical advancements and to exhibit their hidden 
+                    talents.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Content Ends -->
+    <!-- Sponsers Starts -->
+    <div class="sponsers"  *ngIf="router.url == '/'" style=" margin-top: 100px;">
+        <h2 style="text-align: center; color: white; font-weight: 900; font-family: Verdana, Geneva, Tahoma, sans-serif;">Our Sponsers</h2>
+        <div class="row" style=" overflow-y: hidden; margin-top: 75px;">
+            <div class="col-lg-4 col-md-12 col-sm-12" >
+                <img src="../assets/avasoft1.png" alt="" style="height: 50%; width: 65%; margin: auto; display: block;">
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12" >
+                <img src="../assets/avasoft1.png" alt=""  style="height: 50%; width: 65%; margin: auto; display: block;"></div>
+            <div class="col-lg-4 col-md-12 col-sm-12" >
+                <img src="../assets/avasoft1.png" alt="" style="height: 50%; width: 65%; margin: auto; display: block;"></div>
+        </div>
+        <div class="row" style=" overflow-y: hidden;">
+            <div class="col-lg-4 col-md-12 col-sm-12" >
+                <img src="../assets/avasoft1.png" alt="" style="height: 50%; width: 65%; margin: auto; display: block;">
+
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12" >
+                <img src="../assets/avasoft1.png" alt="" style="height: 50%; width: 65%; margin: auto; display: block;"></div>
+            <div class="col-lg-4 col-md-12 col-sm-12" >
+                <img src="../assets/avasoft1.png" alt="" style="height: 50%; width: 65%; margin: auto; display: block;"></div>
+        </div>
+        <div class="row" style=" overflow-y: hidden;">
+            <div class="col-lg-4 col-md-12 col-sm-12" >
+                <img src="../assets/avasoft1.png" alt="" style="height: 50%; width: 65%; margin: auto; display: block;">
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12" >
+                <img src="../assets/avasoft1.png" alt="" style="height: 50%; width: 65%; margin: auto; display: block;"></div>
+            <div class="col-lg-4 col-md-12 col-sm-12" >
+                <img src="../assets/avasoft1.png" alt="" style="height: 50%; width: 65%; margin: auto; display: block;"></div>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>
+    <!-- Sponsers Ends -->
+<!-- Full Content Ends -->
+
+    <div class="footer">
+        <div class="row" style="background-color: rgb(50, 50, 50);">
+            <div class="col-lg-12" style="text-align: center; margin-top: 20px;">
+                <h1 style="overflow-y: hidden;">Contact Us</h1><br>
+                <h4 class="socialmedia" style="overflow-y: hidden;">
+                    <a href="https://www.facebook.com/profile.php?id=100081047464699" target="_blank" style="text-decoration: none; cursor: pointer;"><i class="fa-brands fa-facebook" style="color: white;"></i></a>
+                    <a href="https://instagram.com/novitas_cse_22?igshid=YmMyMTA2M2Y=" target="_blank" style="text-decoration: nones; cursor: pointer"><i class="fa-brands fa-instagram" style="color: white;"></i></a>
+                    <a href="mailto:novitascse2022@gmail.com" target="_blank" style="text-decoration: none; cursor: pointer;"><i class="fa-solid fa-envelope" style="color: white;"></i></a>
+                </h4>
+            </div>
+        </div><br>
+        <div class="row" style="text-align: center; background-color: rgb(50, 50, 50); padding: 20px 30px; overflow-y: hidden;">
+            <div class="col-lg-3">
+                <h5>Student Co-ordinator</h5>
+                <h5>Joshika T</h5>
+                <a href="tel:6380080501" style="text-decoration: none; color: white;">6380080501</a>   
+            </div>
+            <div class="col-lg-3">
+                <h5>Student Co-ordinator</h5>
+                <h5>Nishant VS</h5>
+                <a href="tel:9381376670" style="text-decoration: none; color: white;">9381376670</a>
+            </div>
+            <div class="col-lg-3">
+                <h5>Staff Co-ordinator</h5>
+                <h5>Kavitha M</h5>
+                <a href="tel:9688782558" style="text-decoration: none; color: white;">9688782558</a>
+            </div>
+            <div class="col-lg-3">
+                <h5>Staff Co-ordinator</h5>
+                <h5>Maheswari J</h5>
+                <a href="tel:9500203670" style="text-decoration: none; color: white;">9500203670</a>
+            </div>
+        </div>
+        <div class="row foot" style=" text-align: center; background-color: black;">
+            <div class="col-lg-12">
+                <i class="fa-solid fa-copyright"></i><span style="padding-left: 10px;">2022 Copyrights Novitos</span> 
+            </div>
+        </div>
+    </div>
+</div>
