@@ -62,7 +62,12 @@ li:hover{
     width: 100%;
 }
 .novitas h1{
-    font-size: 55px;
+    font-size: 45px;
+    width: 85%;
+    text-align: center;
+}
+.novitas h3{
+    text-align: center;
 }
 .leftimg{
     /* border: 2px solid black; */
@@ -136,7 +141,11 @@ h5{
         font-size: 18px;
     }
     .novitas h1{
-        font-size: 35px;
+        font-size: 30px;
+    }
+    .novitas h3{
+        font-size: 25px;
+        text-align: center;
     }
     .frontimage{
         height: 600px;
@@ -189,6 +198,9 @@ h5{
     }
     .novitas h1{
         font-size: 25px;
+    }
+    .novitas h3{
+        font-size: 20px;
     }
     .rightcontent{
         padding: 20px;
