@@ -12,6 +12,9 @@ export class AppComponent {
 
   }
   
+  goto_register(){
+    this.router.navigate(['events']);
+  }
 
   goto_aboutus(){
     this.router.navigate(['aboutus']);
